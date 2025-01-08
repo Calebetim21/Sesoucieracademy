@@ -149,7 +149,7 @@ img[alt='Facebook'], img[alt='Instagram'] {
   background: linear-gradient(
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.6)
-  ), url('/images/etiquette.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  ), url('/images/gardening.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 8px; /* Rounded corners */
   padding: 75px;
