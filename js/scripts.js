@@ -65,7 +65,7 @@ const trainingPrograms = [
     "title": "Gardening and Landscaping",
     "description": "Learn essential gardening techniques and landscaping tips to create and maintain beautiful outdoor spaces.",
     "className": "gardening-card"
-  }
+  },
   {
     title: "Domestic Event Planning",
     description: "From intimate gatherings to grand celebrations, learn to orchestrate memorable events.",
