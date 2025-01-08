@@ -1,0 +1,352 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.blog-post{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 105%; 
+  max-width: 700px; 
+  margin: 0 auto;
+}
+
+.blog-post:hover{
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.blog-post h4 {
+  text-align: center; /* Centers the title */
+  font-size: 1.5em; /* Adjust the font size if needed */
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+.blog-post p {
+  text-align: justify; /* Justifies the paragraph text */
+  line-height: 1.6; /* Adjusts line spacing for better readability */
+  font-size: 1em; /* Adjust the font size if needed */
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-author {
+  font-style: italic;
+  color: #777;
+  margin-top: 10px;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.blog-title{
+  text-align: center;
+}
+
+img[alt='Facebook'], img[alt='Instagram'] {
+  transition: transform 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+  background-size: cover;
+  background-position: middle;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff; /* Change the text color to white for visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/hero.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  padding: 50px 20px; /* Add padding for spacing */
+  text-align: center; /* Center-align the content */
+}
+
+.housekeeping-card .program-card {
+  height: 300px;
+  background-position: top;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/housekeeping.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 75px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.housekeeping-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.housekeeping-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.housekeeping-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.event-card .program-card {
+  height: 300px;
+  background-position: middle;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/etiquette.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 75px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.event-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.event-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.event-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.culinary-card .program-card {
+  height: 300px;
+  background-position: top;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/culinary.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 80px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.culinary-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.culinary-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.culinary-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.childcare-card .program-card {
+  height: 300px;
+  background-position: top;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/childcare.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 80px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.childcare-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.childcare-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.childcare-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.laundry-card .program-card {
+  height: 300px;
+  background-position: top;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/laundry.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 80px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.laundry-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.laundry-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.laundry-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+/* Logo styling in the navbar */
+.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+/* About Us Section */
+.about-us {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.about-us h2 {
+  color: #0a0a5a;
+}
+
+/* Services Section */
+.services {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.service-card {
+  padding: 0px;
+  width: 20%;
+  text-align: center;
+  border: 1.5px solid #ddd; /* Subtle border */
+  border-radius: 7px; /* Rounded corners */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.service-card2 {
+  padding: 0px;
+  width: 20%;
+  text-align: center;
+  border: 1.5px solid #ddd; /* Subtle border */
+  border-radius: 7px; /* Rounded corners */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card2:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+/* Footer */
+footer {
+  background-color: navy;
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-us {
+    padding: 40px 20px;
+  }
+
+  .services {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service-card {
+    width: 70%;
+    margin-left: 65px;
+  }
+
+  .service-card2 {
+    width: 70%;
+    margin-left: 65px;
+  }
+
+  .housekeeping-card .program-card{
+    background-position: top;
+    height: fit-content;
+  }
+
+  .event-card .program-card{
+    background-position: middle;
+    height: fit-content;
+  }
+
+  .culinary-card .program-card{
+    background-position: middle;
+    height: fit-content;
+  }
+
+  .childcare .program-card{
+    background-position: middle;
+    height: fit-content;
+  }
+
+  .laundry-card .program-card{
+    background-position: middle;
+    height: fit-content;
+  }
+}
