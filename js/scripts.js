@@ -47,11 +47,6 @@ const trainingPrograms = [
     className: "housekeeping-card"
   },
   {
-    title: "Event Planning Mastery",
-    description: "From intimate gatherings to grand celebrations, learn to orchestrate memorable events.",
-    className: "event-card"
-  },
-  {
     title: "Culinary Skills",
     description: "Develop your cooking skills to create culinary delights for diverse occasions.", 
     className: "culinary-card"
@@ -65,6 +60,16 @@ const trainingPrograms = [
     title: "Laundry Care",
     description: "Master efficient laundry techniques, including fabric care, stain removal, and ironing.",
     className: "laundry-card"
+  },
+  {
+    "title": "Gardening and Landscaping",
+    "description": "Learn essential gardening techniques and landscaping tips to create and maintain beautiful outdoor spaces.",
+    "className": "gardening-card"
+  }
+  {
+    title: "Domestic Event Planning",
+    description: "From intimate gatherings to grand celebrations, learn to orchestrate memorable events.",
+    className: "event-card"
   }
 ];
 
