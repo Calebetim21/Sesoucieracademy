@@ -143,6 +143,39 @@ img[alt='Facebook'], img[alt='Instagram'] {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
+.gardening-card .program-card {
+  height: 300px;
+  background-position: middle;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ), url('/images/etiquette.jpg') no-repeat center center/cover; /* Optional: Adjust the background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 75px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.gardening-card .program-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f9f9f9; /* Subtle background change on hover */
+}
+
+.gardening-card .program-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.gardening-card .program-card p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
 .culinary-card .program-card {
   height: 300px;
   background-position: top;
@@ -331,6 +364,11 @@ footer {
   }
 
   .event-card .program-card{
+    background-position: middle;
+    height: fit-content;
+  }
+
+  .gardening-card .program-card{
     background-position: middle;
     height: fit-content;
   }
