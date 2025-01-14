@@ -33,12 +33,6 @@
   font-size: 1em; /* Adjust the font size if needed */
 }
 
-.blog-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 .blog-author {
   font-style: italic;
   color: #777;
@@ -46,10 +40,12 @@
 }
 
 .blog-image {
-  max-width: 100%;
+  float: left;
+  max-width: 45%;
   height: auto;
   display: block;
-  margin: 10px 0;
+  margin-right: 10px;
+  border-radius: 8px;
 }
 
 .blog-title{
