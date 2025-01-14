@@ -42,17 +42,17 @@ programCards.forEach(card => {
 // Training programs data with unique class names
 const trainingPrograms = [
   {
-    title: "Housekeeping Mastery",
+    title: "Housekeeping",
     description: "Learn efficient and professional cleaning techniques to maintain pristine environments.",
     className: "housekeeping-card"
   },
   {
-    title: "Culinary Skills",
+    title: "Culinary",
     description: "Develop your cooking skills to create culinary delights for diverse occasions.", 
     className: "culinary-card"
   },
   {
-    title: "Childcare Basics",
+    title: "Childcare",
     description: "Understand the essentials of childcare and how to provide a nurturing environment.",
     className: "childcare-card"
   },
