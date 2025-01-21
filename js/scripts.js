@@ -46,12 +46,7 @@ const trainingPrograms = [
     description: "Learn efficient and professional cleaning techniques to maintain pristine environments.",
     className: "housekeeping-card"
   },
-  {
-    title: "Culinary",
-    description: "Develop your cooking skills to create culinary delights for diverse occasions.", 
-    className: "culinary-card"
-  },
-  {
+    {
     title: "Childcare",
     description: "Understand the essentials of childcare and how to provide a nurturing environment.",
     className: "childcare-card"
@@ -60,6 +55,11 @@ const trainingPrograms = [
     title: "Laundry Care",
     description: "Master efficient laundry techniques, including fabric care, stain removal, and ironing.",
     className: "laundry-card"
+  },
+  {
+    title: "Culinary",
+    description: "Develop your cooking skills to create culinary delights for diverse occasions.", 
+    className: "culinary-card"
   },
   {
     "title": "Gardening and Landscaping",
